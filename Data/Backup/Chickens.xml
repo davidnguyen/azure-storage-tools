@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Chickens>
+  <entity>
+    <PartitionKey>1</PartitionKey>
+    <RowKey>1</RowKey>
+    <Timestamp type="Edm.DateTime">2012-04-01T02:21:26.557Z</Timestamp>
+    <Name>Roasted</Name>
+  </entity>
+  <entity>
+    <PartitionKey>1</PartitionKey>
+    <RowKey>2</RowKey>
+    <Timestamp type="Edm.DateTime">2012-04-01T02:21:08.343Z</Timestamp>
+    <Name>Run</Name>
+  </entity>
+</Chickens>

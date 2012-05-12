@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<azTestPerson>
+  <meta>
+    <PartitionKey>Partition Key</PartitionKey>
+    <RowKey>Row Key</RowKey>
+    <Name>Name</Name>
+    <Age>Age</Age>
+  </meta>
+  <entity>
+    <PartitionKey>0</PartitionKey>
+    <RowKey>1</RowKey>
+    <Name>David</Name>
+    <Age type="Edm.Int32">30</Age>
+  </entity>
+  <entity>
+    <PartitionKey>0</PartitionKey>
+    <RowKey>2</RowKey>
+    <Name>Anna</Name>
+    <Age type="Edm.Int32">29</Age>
+  </entity>
+  <entity>
+    <PartitionKey>0</PartitionKey>
+    <RowKey>3</RowKey>
+    <Name>Blanco</Name>
+    <Age type="Edm.Int32">42</Age>
+  </entity>
+</azTestPerson>

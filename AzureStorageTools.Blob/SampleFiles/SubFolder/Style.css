@@ -1,0 +1,28 @@
+﻿body { font-family: Trebuchet MS; margin: 0px; padding: 0px; background-color: #fff; background: url(../img/wall2.jpg) repeat 0 0;  }
+
+textarea:focus, input:focus{ outline:none; }
+
+a { text-decoration: none; color: #fff; }
+a:visited { color: #fff; }
+
+#head { position: fixed; width: 100%; overflow: hidden; top: 0px; left: 0px; height: 45px; margin: 0px; background: #fff; 
+        background-image: radial-gradient(center top, ellipse farthest-corner, #0a1519 0%, #18353d 90%); 
+        background-image: -webkit-radial-gradient(center top, ellipse farthest-corner, #0a1519 0%, #18353d 90%); 
+        background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #0a1519 0%, #18353d 90%);
+        box-shadow: 0px 1px 3px #6cc3cc; z-index: 10000; }
+
+#taskbar { width: 100%; margin: auto; overflow: hidden; }
+#taskbar .logo { float: left; margin-right: 20px; margin-left: 15px; margin-top: 5px; background: #dffffe; color: #fff; height: 35px; width: 35px; font-size: 20px; font-weight: bold; text-align: center; padding-top: 0px; cursor: pointer; border-radius: 3px; }
+#taskbar .logo span { margin-top: 3px; display: block; background: url(../img/matrixlogo.png) no-repeat 2px -1px; height: 35px; width: 35px; }
+#taskbar .shortcuts { float: left; }
+#taskbar .taskbaritem { float: left; margin-right: 20px; height: 32px; padding-top: 10px; margin-top: 3px; }
+#taskbar .taskbaritem:hover { } 
+#taskbar .taskbaritem a { text-decoration: none; color: #6cc3cc; }
+#taskbar .taskbaritem a:hover { color: #fff; }
+#taskbar .taskbaritem-active { border-top: 3px solid #90feff; margin-top:0; } 
+#taskbar .taskbaritem-active a { color: #fff; } 
+
+#taskbar .search { float: right; margin-top: 12px; margin-right: 15px; }
+#taskbar .search input[type=text] { border: 1px solid #90FEFF; color: #fff; background-color: #2F6E77; font-family: Trebuchet MS; border-radius: 3px; padding: 2px; }
+
+#application { width: 100%; margin: auto; margin-top: 80px; overflow: hidden; }

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<azTestProduct>
+  <entity>
+    <PartitionKey>0</PartitionKey>
+    <RowKey>p001</RowKey>
+    <Name>Milk</Name>
+    <Price type="Edm.Double">3.5</Price>
+  </entity>
+  <entity>
+    <PartitionKey>0</PartitionKey>
+    <RowKey>p002</RowKey>
+    <Name>Bread</Name>
+    <Price type="Edm.Double">2.9</Price>
+  </entity>
+  <entity>
+    <PartitionKey>0</PartitionKey>
+    <RowKey>p003</RowKey>
+    <Name>Orange</Name>
+    <Price type="Edm.Double">1.7</Price>
+  </entity>
+</azTestProduct>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<azTestPerson>
+  <entity>
+    <PartitionKey>0</PartitionKey>
+    <RowKey>1</RowKey>
+    <Timestamp type="Edm.DateTime">2012-05-06T01:44:21.213Z</Timestamp>
+    <Name>David</Name>
+    <Age type="Edm.Int32">30</Age>
+  </entity>
+  <entity>
+    <PartitionKey>0</PartitionKey>
+    <RowKey>2</RowKey>
+    <Timestamp type="Edm.DateTime">2012-05-06T01:44:21.247Z</Timestamp>
+    <Name>Anna</Name>
+    <Age type="Edm.Int32">29</Age>
+  </entity>
+  <entity>
+    <PartitionKey>0</PartitionKey>
+    <RowKey>3</RowKey>
+    <Timestamp type="Edm.DateTime">2012-05-06T01:44:21.267Z</Timestamp>
+    <Name>Blanco</Name>
+    <Age type="Edm.Int32">42</Age>
+  </entity>
+</azTestPerson>

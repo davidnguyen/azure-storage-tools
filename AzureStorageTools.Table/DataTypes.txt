@@ -1,0 +1,8 @@
+﻿Edm.Binary		byte[]
+Edm.Boolean		bool
+Edm.DateTime	DateTime
+Edm.Double		double
+Edm.Guid		Guid
+Edm.Int32		int
+Edm.Int64		long
+Edm.String		String

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<User>
+  <entity>
+    <PartitionKey>2</PartitionKey>
+    <RowKey>3</RowKey>
+    <Timestamp type="Edm.DateTime">2012-04-01T02:20:32.523Z</Timestamp>
+    <Created></Created>
+    <Email>newemail@somewhere.com</Email>
+    <FirstName>Nadal</FirstName>
+    <Id>111</Id>
+    <LastName>Jason</LastName>
+    <Age type="Edm.Int32">27</Age>
+  </entity>
+  <entity>
+    <PartitionKey>628adadd-dc3c-41e9-a3e4-de61422e4bed</PartitionKey>
+    <RowKey>user-record</RowKey>
+    <Timestamp type="Edm.DateTime">2012-04-01T02:15:09.23Z</Timestamp>
+    <Created>2012-02-27T13:49:35Z</Created>
+    <Email>diepnn@gmail.com</Email>
+    <FirstName>David</FirstName>
+    <Id>628adadd-dc3c-41e9-a3e4-de61422e4bed</Id>
+    <LastName>Nguyen</LastName>
+    <Age type="Edm.Int32">35</Age>
+  </entity>
+</User>

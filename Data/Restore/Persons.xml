@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Person>
+  <meta>
+    <PartitionKey>Partition Key</PartitionKey>
+    <RowKey>Partition Key</RowKey>
+    <Name>Peter</Name>
+    <Age>30</Age>
+  </meta>
+  <entity>
+    <PartitionKey>0</PartitionKey>
+    <RowKey>1</RowKey>
+    <Name>Peter</Name>
+    <Age>30</Age>
+  </entity>
+  <entity>
+    <PartitionKey>0</PartitionKey>
+    <RowKey>2</RowKey>
+    <Name>Anna</Name>
+    <Age type="int32">29</Age>
+  </entity>
+</Person>

@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageTools.Table", "AzureStorageTools.Table\AzureStorageTools.Table.csproj", "{CAC79796-3CFE-40D2-A404-5B226209E21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageTools.Blob", "AzureStorageTools.Blob\AzureStorageTools.Blob.csproj", "{9E7D7109-1587-47DF-B79D-2255329FE829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageTools", "AzureStorageTools\AzureStorageTools.csproj", "{F1326FC8-920E-4AB8-87B0-1CF44C1BE304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageTools.Test", "AzureStorageTools.Test\AzureStorageTools.Test.csproj", "{0B582DDE-84EB-417F-B01B-05E5FA9A575A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{783F0C61-AFE7-446E-8C54-4FE4EA964777}"
+	ProjectSection(SolutionItems) = preProject
+		AzureStorageTools.vsmdi = AzureStorageTools.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://socialmatrix.tfspreview.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AzureStorageTools.Table\\AzureStorageTools.Table.csproj
+		SccProjectName1 = AzureStorageTools.Table
+		SccLocalPath1 = AzureStorageTools.Table
+		SccProjectUniqueName2 = AzureStorageTools.Blob\\AzureStorageTools.Blob.csproj
+		SccProjectName2 = AzureStorageTools.Blob
+		SccLocalPath2 = AzureStorageTools.Blob
+		SccProjectUniqueName3 = AzureStorageTools\\AzureStorageTools.csproj
+		SccProjectName3 = AzureStorageTools
+		SccLocalPath3 = AzureStorageTools
+		SccProjectUniqueName4 = AzureStorageTools.Test\\AzureStorageTools.Test.csproj
+		SccProjectName4 = AzureStorageTools.Test
+		SccLocalPath4 = AzureStorageTools.Test
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AzureStorageTools.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC79796-3CFE-40D2-A404-5B226209E21F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{CAC79796-3CFE-40D2-A404-5B226209E21F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{CAC79796-3CFE-40D2-A404-5B226209E21F}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{CAC79796-3CFE-40D2-A404-5B226209E21F}.Debug|x86.ActiveCfg = Debug|x86
+		{CAC79796-3CFE-40D2-A404-5B226209E21F}.Debug|x86.Build.0 = Debug|x86
+		{CAC79796-3CFE-40D2-A404-5B226209E21F}.Release|Any CPU.ActiveCfg = Release|x86
+		{CAC79796-3CFE-40D2-A404-5B226209E21F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{CAC79796-3CFE-40D2-A404-5B226209E21F}.Release|Mixed Platforms.Build.0 = Release|x86
+		{CAC79796-3CFE-40D2-A404-5B226209E21F}.Release|x86.ActiveCfg = Release|x86
+		{CAC79796-3CFE-40D2-A404-5B226209E21F}.Release|x86.Build.0 = Release|x86
+		{9E7D7109-1587-47DF-B79D-2255329FE829}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9E7D7109-1587-47DF-B79D-2255329FE829}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{9E7D7109-1587-47DF-B79D-2255329FE829}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{9E7D7109-1587-47DF-B79D-2255329FE829}.Debug|x86.ActiveCfg = Debug|x86
+		{9E7D7109-1587-47DF-B79D-2255329FE829}.Debug|x86.Build.0 = Debug|x86
+		{9E7D7109-1587-47DF-B79D-2255329FE829}.Release|Any CPU.ActiveCfg = Release|x86
+		{9E7D7109-1587-47DF-B79D-2255329FE829}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{9E7D7109-1587-47DF-B79D-2255329FE829}.Release|Mixed Platforms.Build.0 = Release|x86
+		{9E7D7109-1587-47DF-B79D-2255329FE829}.Release|x86.ActiveCfg = Release|x86
+		{9E7D7109-1587-47DF-B79D-2255329FE829}.Release|x86.Build.0 = Release|x86
+		{F1326FC8-920E-4AB8-87B0-1CF44C1BE304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1326FC8-920E-4AB8-87B0-1CF44C1BE304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1326FC8-920E-4AB8-87B0-1CF44C1BE304}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F1326FC8-920E-4AB8-87B0-1CF44C1BE304}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F1326FC8-920E-4AB8-87B0-1CF44C1BE304}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F1326FC8-920E-4AB8-87B0-1CF44C1BE304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1326FC8-920E-4AB8-87B0-1CF44C1BE304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1326FC8-920E-4AB8-87B0-1CF44C1BE304}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F1326FC8-920E-4AB8-87B0-1CF44C1BE304}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F1326FC8-920E-4AB8-87B0-1CF44C1BE304}.Release|x86.ActiveCfg = Release|Any CPU
+		{0B582DDE-84EB-417F-B01B-05E5FA9A575A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B582DDE-84EB-417F-B01B-05E5FA9A575A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B582DDE-84EB-417F-B01B-05E5FA9A575A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0B582DDE-84EB-417F-B01B-05E5FA9A575A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0B582DDE-84EB-417F-B01B-05E5FA9A575A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0B582DDE-84EB-417F-B01B-05E5FA9A575A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B582DDE-84EB-417F-B01B-05E5FA9A575A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B582DDE-84EB-417F-B01B-05E5FA9A575A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0B582DDE-84EB-417F-B01B-05E5FA9A575A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0B582DDE-84EB-417F-B01B-05E5FA9A575A}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
