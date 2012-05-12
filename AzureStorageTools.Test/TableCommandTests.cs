@@ -19,7 +19,7 @@ namespace AzureStorageTools.Test
         public void TableRestoreTest()
         {
             var restoreCommand = new RestoreCommand();
-            var options = new CommandOptions
+            var options = new TableCommandOptions
             {
                 Mode = "restore",
                 Source = DataLocation,

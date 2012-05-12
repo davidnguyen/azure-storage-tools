@@ -11,9 +11,17 @@ using Microsoft.WindowsAzure.StorageClient;
 
 namespace AzureStorageTools.Table.Commands
 {
-    public class RestoreCommand : ICommand<CommandOptions>
+    /// <summary>
+    /// Restores tables from xml files in a local directory (source)
+    /// to a storage account (destination)
+    /// </summary>
+    public class RestoreCommand : ICommand<TableCommandOptions>
     {
-        public void Run(CommandOptions options)
+        /// <summary>
+        /// Executes command
+        /// </summary>
+        /// <param name="options">Command options</param>
+        public void Run(TableCommandOptions options)
         {
             var sourceXmlFiles = Directory.GetFiles(options.Source);
             var destinationStorageAccount = CloudStorageAccount.Parse(options.Destination);

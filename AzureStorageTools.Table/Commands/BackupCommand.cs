@@ -11,8 +11,16 @@ using Microsoft.WindowsAzure.StorageClient;
 
 namespace AzureStorageTools.Table.Commands
 {
+    /// <summary>
+    /// Backups tables from a storage account (source)
+    /// to a local directory (destination) in xml files
+    /// </summary>
     public class BackupCommand : ICommand<TableCommandOptions>
     {
+        /// <summary>
+        /// Executes command
+        /// </summary>
+        /// <param name="options">Command options</param>
         public void Run(TableCommandOptions options)
         {
             var sourceAccount = CloudStorageAccount.Parse(options.Source);

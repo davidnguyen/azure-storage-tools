@@ -20,7 +20,7 @@ Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 5
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://socialmatrix.tfspreview.com/defaultcollection
+		SccTeamFoundationServer = 
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = AzureStorageTools.Table\\AzureStorageTools.Table.csproj
 		SccProjectName1 = AzureStorageTools.Table

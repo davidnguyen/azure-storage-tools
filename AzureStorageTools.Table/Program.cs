@@ -4,9 +4,6 @@ using System.Data.Services.Client;
 using System.Linq;
 using System.Text;
 using System.IO;
-using Newtonsoft;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 using Microsoft.WindowsAzure;
 using Microsoft.WindowsAzure.StorageClient;
 
@@ -17,7 +14,7 @@ namespace AzureStorageTools.Table
     /// <summary>
     /// Represents the command line tool program entry
     /// </summary>
-    class Program : CommandLineTool<CommandOptions>
+    class Program : CommandLineTool<TableCommandOptions>
     {
         /// <summary>
         /// Command map

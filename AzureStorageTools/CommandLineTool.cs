@@ -31,7 +31,7 @@ namespace AzureStorageTools
         /// <param name="args"></param>
         public void ParseAndRun(string[] args)
         {
-            var options = default(TOptions);
+            var options = Activator.CreateInstance<TOptions>(); //default(TOptions);
             var commandLineParser = new CommandLineParser();
             if (commandLineParser.ParseArguments(args, options))
             {
@@ -68,7 +68,7 @@ namespace AzureStorageTools
         /// </summary>
         private void PrintReadme()
         {
-            using (Stream stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(ReadmeResource))
+            using (Stream stream = Assembly.GetEntryAssembly().GetManifestResourceStream(ReadmeResource))
             using (StreamReader reader = new StreamReader(stream))
             {
                 string result = reader.ReadToEnd();

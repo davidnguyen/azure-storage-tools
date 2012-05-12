@@ -8,7 +8,7 @@ namespace AzureStorageTools.Blob
     /// <summary>
     /// Represents the command line tool program entry
     /// </summary>
-    class Program : CommandLineTool<CommandOptions>
+    class Program : CommandLineTool<BlobCommandOptions>
     {
         /// <summary>
         /// Command map
