@@ -5,6 +5,7 @@ using System.Text;
 using System.IO;
 using System.Reflection;
 using CommandLine;
+using System.Diagnostics;
 
 namespace AzureStorageTools
 {
@@ -37,16 +38,23 @@ namespace AzureStorageTools
             {
                 if (CommandMap.ContainsKey(options.Mode))
                 {
+                    var sw = new Stopwatch();
+                    sw.Start();
+                    var commandTypeName = "Command";
                     try
                     {
                         var commandType = CommandMap[options.Mode];
+                        commandTypeName = commandType.Name;
+                        Console.WriteLine("Command '{0}' begins...", commandTypeName);
                         var command = Activator.CreateInstance(commandType) as ICommand<TOptions>;
                         command.Run(options);
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine("Exception occurred: " + ex.Message);
+                        Console.WriteLine("An exception occurred while running command: " + ex.ToString());
                     }
+                    sw.Stop();
+                    Console.WriteLine("Command '{0}' completed in {1}ms", commandTypeName, sw.ElapsedMilliseconds);
                 }
                 else
                 {
@@ -72,6 +80,7 @@ namespace AzureStorageTools
             using (StreamReader reader = new StreamReader(stream))
             {
                 string result = reader.ReadToEnd();
+                Console.WriteLine();
                 Console.WriteLine(result);
             }
         }
